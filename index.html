@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bagas Maulana — Mahasiswa Universitas AMIKOM Yogyakarta</title>
+  <meta
+    name="description"
+    content="Portofolio Bagas Maulana, mahasiswa Sistem Informasi Universitas AMIKOM Yogyakarta yang berfokus pada pengembangan web dan perancangan sistem."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#beranda" class="brand" aria-label="Beranda Bagas Maulana">
+        Bagas Maulana
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#karya" class="nav-link">Karya</a>
+        <a href="#pendidikan" class="nav-link">Pendidikan</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          class="icon-btn"
+          id="themeToggle"
+          type="button"
+          aria-label="Ubah tema warna"
+          title="Ubah Tema (Terang/Gelap)"
+        >
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#kontak" class="btn btn-sm btn-primary nav-cta">Kontak</a>
+
+        <button
+          class="icon-btn menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <line x1="4" y1="7" x2="20" y2="7"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="17" x2="20" y2="17"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <!-- Top-Left Cutout Portrait (Transparent Background) -->
+        <div class="hero-portrait-col reveal">
+          <div class="portrait-stage">
+            <img
+              src="assets/bagas-maulana-nobg.png"
+              alt="Bagas Maulana — Mahasiswa Universitas AMIKOM Yogyakarta"
+              class="hero-cutout"
+            />
+          </div>
+          <div class="portrait-caption">
+            <span class="mono">BAGAS MAULANA</span>
+            <span class="mono muted">YOGYAKARTA, ID</span>
+          </div>
+        </div>
+
+        <!-- Hero Editorial Intro -->
+        <div class="hero-content reveal">
+          <p class="eyebrow">Universitas AMIKOM Yogyakarta</p>
+
+          <h1 class="hero-title">
+            Mahasiswa Sistem Informasi &amp; <span class="serif-italic">Web Developer</span>.
+          </h1>
+
+          <p class="hero-lead">
+            Saya <strong>Bagas Maulana</strong>. Saya merancang dan membangun aplikasi web yang rapi, responsif, dan mudah digunakan—menggabungkan analisis sistem informasi dengan perhatian terhadap detail antarmuka.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#karya" class="btn btn-primary">Lihat Karya Pilihan</a>
+            <a href="#kontak" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+
+          <dl class="hero-meta">
+            <div>
+              <dt>Program Studi</dt>
+              <dd>Sistem Informasi — AMIKOM</dd>
+            </div>
+            <div>
+              <dt>Fokus</dt>
+              <dd>Frontend &amp; UI Engineering</dd>
+            </div>
+            <div>
+              <dt>Ketersediaan</dt>
+              <dd>Terbuka untuk Magang</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Capabilities Section -->
+    <section class="section bordered-section" id="tentang">
+      <div class="container split-layout">
+        <div class="section-label reveal">
+          <span class="mono">01</span>
+          <h2>Tentang &amp; Keahlian</h2>
+        </div>
+
+        <div class="about-body">
+          <div class="editorial-copy reveal">
+            <p class="lead-paragraph">
+              Sebagai mahasiswa di Universitas AMIKOM Yogyakarta, saya terbiasa memecahkan masalah teknis dari sisi antarmuka maupun logika sistem agar produk digital terasa ringan dan jelas bagi penggunanya.
+            </p>
+            <p>
+              Saya menikmati proses menerjemahkan ide atau desain mentah menjadi kode HTML, CSS, dan JavaScript yang terstruktur, serta mengembangkan aplikasi dinamis menggunakan ekosistem modern seperti React, Node.js, dan Laravel.
+            </p>
+          </div>
+
+          <div class="capability-table reveal">
+            <div class="cap-row">
+              <h3>Frontend</h3>
+              <p>HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, Aksesibilitas Web</p>
+            </div>
+            <div class="cap-row">
+              <h3>Backend &amp; Data</h3>
+              <p>Node.js, PHP, Laravel, MySQL, Perancangan REST API</p>
+            </div>
+            <div class="cap-row">
+              <h3>Desain &amp; Alur Kerja</h3>
+              <p>Figma, Wireframing, Design System, Git &amp; GitHub, VS Code</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Works Section -->
+    <section class="section bordered-section" id="karya">
+      <div class="container">
+        <div class="works-header reveal">
+          <div class="section-label">
+            <span class="mono">02</span>
+            <h2>Karya Pilihan</h2>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Filter kategori proyek">
+            <button class="filter-btn active" data-filter="all" type="button">Semua</button>
+            <button class="filter-btn" data-filter="webapp" type="button">Web App</button>
+            <button class="filter-btn" data-filter="uiux" type="button">UI/UX</button>
+            <button class="filter-btn" data-filter="kampus" type="button">Proyek Kampus</button>
+          </div>
+        </div>
+
+        <div class="works-grid" id="projectsGrid">
+          <article class="work-card reveal" data-category="webapp kampus">
+            <div class="work-top">
+              <span class="mono">01 / WEB APP &bull; KAMPUS</span>
+              <span class="mono muted">2026</span>
+            </div>
+            <h3>AmikomEvent &mdash; Portal Event &amp; Tiket</h3>
+            <p>
+              Platform web event kampus dan pemesanan tiket (workshop, hackathon, konser) dengan halaman detail, checkout, e-ticket, serta panel admin untuk event, kategori, partner, dan transaksi.
+            </p>
+            <div class="work-footer">
+              <span class="work-stack">Laravel 13 &bull; PHP 8.3 &bull; Blade</span>
+              <div class="work-links">
+                <a
+                  href="https://github.com/bagasmaulana886/24.12.3172_AmikomEvent"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-action muted"
+                >
+                  GitHub &nearr;
+                </a>
+                <button class="text-action open-modal" data-project="amikom-event" type="button">
+                  Detail &rarr;
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="webapp">
+            <div class="work-top">
+              <span class="mono">02 / WEB APP &bull; LARAVEL</span>
+              <span class="mono muted">2026</span>
+            </div>
+            <h3>Sembakoku &mdash; Toko Sembako Siak</h3>
+            <p>
+              Sistem kasir (POS) dan manajemen inventaris berbasis web untuk toko sembako keluarga di Siak, mencakup pencatatan stok, restock, riwayat penjualan, serta cetak struk.
+            </p>
+            <div class="work-footer">
+              <span class="work-stack">Laravel 13 &bull; PHP 8.3 &bull; Blade</span>
+              <div class="work-links">
+                <a
+                  href="https://github.com/bagasmaulana886/sembakoku"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-action muted"
+                >
+                  GitHub &nearr;
+                </a>
+                <button class="text-action open-modal" data-project="sembakoku" type="button">
+                  Detail &rarr;
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="uiux">
+            <div class="work-top">
+              <span class="mono">03 / UI/UX DESIGN</span>
+              <span class="mono muted">2025</span>
+            </div>
+            <h3>KopiKini — Mobile Ordering</h3>
+            <p>
+              Studi kasus desain antarmuka pemesanan kopi lokal dengan penyederhanaan alur checkout menjadi tiga langkah utama.
+            </p>
+            <div class="work-footer">
+              <span class="work-stack">Figma • Design System • Prototype</span>
+              <button class="text-action open-modal" data-project="kopikini" type="button">
+                Detail &rarr;
+              </button>
+            </div>
+          </article>
+
+          <article class="work-card reveal" data-category="kampus webapp">
+            <div class="work-top">
+              <span class="mono">04 / PROYEK KAMPUS</span>
+              <span class="mono muted">2025</span>
+            </div>
+            <h3>Sistem Informasi Event UKM</h3>
+            <p>
+              Portal pendaftaran seminar dan kegiatan mahasiswa berbasis web lengkap dengan validasi peserta serta rekap data panitia.
+            </p>
+            <div class="work-footer">
+              <span class="work-stack">Laravel • MySQL • Bootstrap</span>
+              <button class="text-action open-modal" data-project="event-ukm" type="button">
+                Detail &rarr;
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section class="section bordered-section" id="pendidikan">
+      <div class="container split-layout">
+        <div class="section-label reveal">
+          <span class="mono">03</span>
+          <h2>Pendidikan &amp; Aktivitas</h2>
+        </div>
+
+        <div class="ledger-list reveal">
+          <div class="ledger-item">
+            <div class="ledger-period mono">AKTIF</div>
+            <div class="ledger-detail">
+              <h3>Universitas AMIKOM Yogyakarta</h3>
+              <p class="ledger-sub">Program Studi Sistem Informasi &mdash; Sleman, D.I. Yogyakarta</p>
+              <p>
+                Mendalami analisis dan perancangan sistem informasi, basis data, pemrograman web, tata kelola teknologi informasi, serta pengembangan antarmuka pengguna.
+              </p>
+            </div>
+          </div>
+
+          <div class="ledger-item">
+            <div class="ledger-period mono">MANDIRI</div>
+            <div class="ledger-detail">
+              <h3>Eksplorasi Web &amp; Kolaborasi Produk</h3>
+              <p class="ledger-sub">Frontend Development &amp; UI/UX</p>
+              <p>
+                Membangun proyek latihan berbasis studi kasus nyata, mengikuti seminar teknologi kampus, dan mengelola versi kode menggunakan GitHub.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section bordered-section" id="kontak">
+      <div class="container split-layout">
+        <div class="section-label reveal">
+          <span class="mono">04</span>
+          <h2>Kontak</h2>
+          <p class="section-note">
+            Terbuka untuk peluang magang, kolaborasi proyek web, maupun diskusi teknis di area Yogyakarta atau jarak jauh.
+          </p>
+        </div>
+
+        <div class="contact-layout reveal">
+          <div class="contact-direct">
+            <div class="direct-row">
+              <span class="mono muted">EMAIL</span>
+              <div class="email-copy-box">
+                <span id="emailText">bagas.maulana@students.amikom.ac.id</span>
+                <button type="button" class="copy-btn" id="copyEmailBtn">Salin</button>
+              </div>
+            </div>
+
+            <div class="direct-row">
+              <span class="mono muted">LOKASI</span>
+              <span>Universitas AMIKOM Yogyakarta, Jl. Ring Road Utara, Sleman</span>
+            </div>
+
+            <div class="direct-row">
+              <span class="mono muted">TAUTAN</span>
+              <div class="text-links">
+                <a href="https://github.com/bagasmaulana886" target="_blank" rel="noopener noreferrer">GitHub &nearr;</a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn &nearr;</a>
+                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram &nearr;</a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nameInput">Nama</label>
+                <input type="text" id="nameInput" name="name" placeholder="Nama lengkap Anda" required />
+              </div>
+              <div class="form-group">
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput" name="email" placeholder="nama@email.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subjectInput">Subjek</label>
+              <input type="text" id="subjectInput" name="subject" placeholder="Keperluan magang / proyek" required />
+            </div>
+
+            <div class="form-group">
+              <label for="messageInput">Pesan</label>
+              <textarea id="messageInput" name="message" rows="4" placeholder="Tuliskan pesan singkat Anda..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="currentYear">2026</span> Bagas Maulana &mdash; Universitas AMIKOM Yogyakarta</p>
+      <a href="#beranda" class="mono">KEMBALI KE ATAS &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Tutup detail proyek">&times;</button>
+      <span class="mono muted" id="modalCategory">Kategori</span>
+      <h3 id="modalTitle">Judul Proyek</h3>
+      <p id="modalDescription" class="modal-desc"></p>
+      <div class="modal-details">
+        <div>
+          <h4>Pendekatan &amp; Solusi</h4>
+          <p id="modalSolution"></p>
+        </div>
+        <div>
+          <h4>Teknologi</h4>
+          <div class="tag-group" id="modalTech"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a
+          href="https://github.com/bagasmaulana886/sembakoku"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline"
+          id="modalRepoBtn"
+          hidden
+        >
+          Lihat di GitHub &nearr;
+        </a>
+        <a href="#kontak" class="btn btn-primary" id="modalContactBtn">Diskusikan Proyek</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
