@@ -31,14 +31,15 @@ const PROJECT_DETAILS = {
     repoUrl: "https://www.figma.com/design/2NRzlAMEbGJSdR7y1bDzP0",
     repoLabel: "Lihat di Figma ↗"
   },
-  "event-ukm": {
-    category: "04 / Proyek Kampus • Web App",
-    title: "Sistem Informasi Event UKM",
+  nadisehat: {
+    category: "04 / Web App • Kesehatan",
+    title: "NadiSehat — Web Kesehatan & Pola Hidup",
     description:
-      "Portal publikasi dan pendaftaran acara kampus seperti seminar teknologi, workshop coding, dan kegiatan unit kegiatan mahasiswa.",
+      "Aplikasi web kesehatan berbasis HTML, CSS, dan JavaScript untuk memantau pola hidup harian, menganalisis keseimbangan gizi dan aktivitas, serta menyediakan konsultasi kesehatan yang disesuaikan dengan profil pengguna.",
     solution:
-      "Mengembangkan formulir registrasi tervalidasi, halaman detail acara dinamis, serta rekap data peserta berbasis MySQL untuk kebutuhan panitia.",
-    tech: ["PHP", "Laravel", "MySQL", "Bootstrap"]
+      "Membangun sistem akun terisolasi per pengguna dengan riwayat penyakit (Maag/GERD, Hipertensi, Diabetes, dan lainnya), kalkulator skor pola hidup (asupan makanan, aktivitas, hidrasi, tidur, stres, IMT), visualisasi grafik SVG interaktif (Donut, Radar 5 Pilar, Batang, dan Area Chart), serta halaman konsultasi dengan ringkasan kondisi siap cetak.",
+    tech: ["HTML5", "CSS3", "JavaScript", "SVG Charts", "LocalStorage"],
+    repoUrl: "https://github.com/bagasmaulana886/nadisehat"
   }
 };
 
