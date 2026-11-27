@@ -20,14 +20,16 @@ const PROJECT_DETAILS = {
     tech: ["PHP 8.3", "Laravel 13", "Blade", "JavaScript", "CSS", "SQL"],
     repoUrl: "https://github.com/bagasmaulana886/sembakoku"
   },
-  kopikini: {
-    category: "03 / UI/UX Design",
-    title: "KopiKini — Mobile Ordering",
+  sawitnusa: {
+    category: "03 / UI/UX Design • Figma",
+    title: "SawitNusa — Agrotech Design System & UI",
     description:
-      "Studi kasus desain antarmuka aplikasi pemesanan kopi untuk kedai lokal dengan penekanan pada kecepatan pemesanan dan keterbacaan menu.",
+      "Perancangan UI/UX dan design system modular di Figma untuk platform manajemen perkebunan kelapa sawit berkelanjutan, terdiri dari halaman Design System & Components, Web Dashboard, serta Mobile App.",
     solution:
-      "Menyusun design system konsisten di Figma, mengurangi langkah checkout menjadi tiga tahap utama, dan menguji alur navigasi melalui prototipe interaktif.",
-    tech: ["Figma", "Design System", "Wireframing", "Prototyping"]
+      "Menyusun token warna semantik agroteknologi (Deep Palm, Emerald Core, Harvest Gold), tipografi Plus Jakarta Sans, serta komponen UI modular (BrandLogo, Button, StatusBadge, NavItem, dan KpiCard) untuk kebutuhan pemantauan panen TBS, rendemen CPO, dan status sertifikasi ISPO/RSPO.",
+    tech: ["Figma", "Design System", "Color Tokens", "Web Dashboard UI", "Mobile UI"],
+    repoUrl: "https://www.figma.com/design/2NRzlAMEbGJSdR7y1bDzP0",
+    repoLabel: "Lihat di Figma ↗"
   },
   "event-ukm": {
     category: "04 / Proyek Kampus • Web App",
@@ -180,6 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (modalRepoBtn) {
       if (data.repoUrl) {
         modalRepoBtn.href = data.repoUrl;
+        modalRepoBtn.textContent = data.repoLabel || "Lihat di GitHub \u2197";
         modalRepoBtn.hidden = false;
       } else {
         modalRepoBtn.hidden = true;
